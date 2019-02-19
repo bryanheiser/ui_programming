@@ -1,3 +1,3 @@
-*Repository for Project 1 UI Programming
+Repository for Project 1 UI Programming
 
 Bryan Heiser and Nischay Murthy
