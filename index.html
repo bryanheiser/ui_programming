@@ -1,1 +1,37 @@
-testing
+<html>
+	<head role="banner">
+		<link rel="stylesheet" href="calculator.css">
+		<title>My Calculator</title>
+	</head>
+	<body>
+		<div id="content">
+			<div role="main" id="dialer_content">
+				<p><strong>Calculator</strong></p>
+				<form><input aria-live="assertive" id="enterNumber"></input></form>
+				<div id="numPad">
+					<button class="numButton" id="one_id">1</button>
+					<button class="numButton" id="two_id">2</button>
+					<button class="numButton" id="three_id">3</button>
+					<button class="numButton" id="four_id">4</button>
+					<button class="numButton" id="five_id">5</button>
+					<button class="numButton" id="six_id">6</button>
+					<button class="numButton" id="seven_id">7</button>
+					<button class="numButton" id="eight_id">8</button>
+					<button class="numButton" id="nine_id">9</button>
+					<button class="numButton" id="zero_id">0</button>
+					<button class="numButton" id="plus_id">+</button>
+					<button class="numButton" id="minus_id">-</button>
+					<button class="numButton" id="times_id">*</button>
+					<button class="numButton" id="divide_id">/</button>
+					<button class="numButton" id="sqrt_id">√</button>
+				</div>
+				<div id="numPadControls">
+					<button class="clearButton" id="clear_id">Clear</button>
+					<button class="enterButton" id="enter_id">Enter</button>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="calculator.js"></script>
+	</body>
+</html>
