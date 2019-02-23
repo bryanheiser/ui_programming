@@ -13,6 +13,10 @@ $("#clear_id").click(function() {
 	$("#enterNumber").val("");
 });
 
+$("#enter_id").click(function(){
+	$("#enterNumber").val(eval($("#enterNumber").val()));
+});
+
 document.addEventListener("keydown", function ( event ) {
 	if ( event.shiftKey ) {
 		if ( event.which == 187 ) {
@@ -24,6 +28,9 @@ document.addEventListener("keydown", function ( event ) {
 		else if ( event.which == 56 ) {
 			$("#enterNumber").val($("#enterNumber").val() + '*');
 		}
+	}
+	else if(event.which == 69){
+		$("#enterNumber").val(eval($("#enterNumber").val()));
 	}
 	else if ( event.which == 191 ) {
 		$("#enterNumber").val($("#enterNumber").val() + '/');
