@@ -22,15 +22,15 @@ document.addEventListener("keydown", function ( event ) {
 		if ( event.which == 187 ) {
 			$("#enterNumber").val($("#enterNumber").val() + '+');
 		}
-		else if ( event.which == 189 ) {
-			$("#enterNumber").val($("#enterNumber").val() + '-');
-		}
 		else if ( event.which == 56 ) {
 			$("#enterNumber").val($("#enterNumber").val() + '*');
 		}
 	}
-	else if(event.which == 13){
+	else if( event.which == 13 ){
 		$("#enterNumber").val(eval($("#enterNumber").val()));
+	}
+	else if ( event.which == 189 ) {
+		$("#enterNumber").val($("#enterNumber").val() + '-');
 	}
 	else if ( event.which == 191 ) {
 		$("#enterNumber").val($("#enterNumber").val() + '/');
