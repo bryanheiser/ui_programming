@@ -29,7 +29,7 @@ document.addEventListener("keydown", function ( event ) {
 			$("#enterNumber").val($("#enterNumber").val() + '*');
 		}
 	}
-	else if(event.which == 69){
+	else if(event.which == 13){
 		$("#enterNumber").val(eval($("#enterNumber").val()));
 	}
 	else if ( event.which == 191 ) {
