@@ -23,20 +23,12 @@ html { font-size:100%; }
 	border-radius: 5px;
 }
 
-/*.dialerButton:hover {background-color: lightgrey;}*/
-
 #enterNumber {
 	width: 318px;
 	height: 45px;
 	border-radius: 5px;
 	margin-left: 5px;
 	font-size: 20px;
-}
-
-#tab_bar {
-	height: 35px;
-	padding: 5px;
-	background-color: grey;
 }
 
 p {
